@@ -1827,21 +1827,6 @@ You cannot use any other **^^Ancestral Vow^^** abilities for the rest of the bat
           <entryLinks>
             <entryLink name="Reverberations of the Runes" id="58c7-8e94-3146-6baf" hidden="false" import="true" targetId="3ca3-4e96-46b9-3cb7" type="selectionEntryGroup"/>
           </entryLinks>
-          <modifiers>
-            <modifier field="points" type="set" value="0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6845" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry name="Resonance of the Runes" id="312e-0ebd-04c0-f79e" defaultAmount="0" hidden="false" import="true" publicationId="f98d-040f-7b3e-eaf1" type="upgrade">
           <constraints>
@@ -1856,21 +1841,6 @@ You cannot use any other **^^Ancestral Vow^^** abilities for the rest of the bat
           <entryLinks>
             <entryLink name="Resonance of the Runes" id="0b98-b393-cccb-234a" hidden="false" import="true" targetId="32c2-9421-ae6c-d10b" type="selectionEntryGroup"/>
           </entryLinks>
-          <modifiers>
-            <modifier field="points" type="set" value="0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6845" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1892,21 +1862,6 @@ You cannot use any other **^^Ancestral Vow^^** abilities for the rest of the bat
           <entryLinks>
             <entryLink name="Ancestor God Recitations" id="e039-a982-b701-f57f" hidden="false" import="true" targetId="4a56-858a-8109-67a0" type="selectionEntryGroup"/>
           </entryLinks>
-          <modifiers>
-            <modifier field="points" type="set" value="0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="f079-501a-2738-6845" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry name="Vulkyn Gifts" id="4d16-50ff-ca16-299b" defaultAmount="0" hidden="true" import="true" publicationId="9e18-bb03-7b60-d4ff" type="upgrade">
           <constraints>
@@ -2064,21 +2019,6 @@ You cannot use any other **^^Ancestral Vow^^** abilities for the rest of the bat
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
-              <modifiers>
-                <modifier field="points" type="set" value="0">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="f079-501a-2738-6845" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
               <profiles>
                 <profile name="Innate Resonance" id="98bd-6af7-c6e7-6157" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
                   <attributes>
