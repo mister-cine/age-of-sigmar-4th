@@ -1051,7 +1051,7 @@
         <categoryLink name="Restrict General" id="d860-d814-85b6-544f" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="46f7-259d-789a-5ee2" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1111,7 +1111,7 @@
         <categoryLink name="DUARDIN ASCENDANT" id="4fda-b408-3192-7602" hidden="false" primary="false" targetId="c57c-7a43-906e-4f33"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="e2cd-e89c-719f-43f0" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1376,7 +1376,7 @@
         <categoryLink name="Restrict General" id="dd67-f7c1-0a51-e937" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="280"/>
+        <cost name="pts" typeId="points" value="290"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="bbbc-2373-b7c9-48ca" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1437,7 +1437,7 @@
         <categoryLink name="Restrict General" id="fd17-3f08-edc9-f8f6" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="8580-3635-e0a3-892b" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1499,7 +1499,7 @@
         <categoryLink name="Restrict General" id="da76-fb20-bbc1-a581" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="240"/>
+        <cost name="pts" typeId="points" value="290"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="d75b-ebcf-bbad-1d37" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1561,7 +1561,7 @@
         <categoryLink name="Restrict General" id="13dd-0990-e352-d152" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="84f2-2ba1-5dfd-e643" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1622,7 +1622,7 @@
         <categoryLink name="Restrict General" id="9207-fd13-c652-310b" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="8daf-7746-eb58-c349" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1683,7 +1683,7 @@
         <categoryLink name="Restrict General" id="b126-eec6-429d-41e7" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="bb56-bf79-46cb-6bc5" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>
@@ -1804,7 +1804,7 @@
         <categoryLink name="DUARDIN ASCENDANT" id="962c-6548-5e54-6ac4" hidden="false" primary="false" targetId="c57c-7a43-906e-4f33"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="d890-a5f7-696c-f5ca" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1863,7 +1863,7 @@
         <categoryLink name="DUARDIN ASCENDANT" id="a857-75d7-5a97-7273" hidden="false" primary="false" targetId="c57c-7a43-906e-4f33"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="7f99-67e5-37f0-20b4" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1894,7 +1894,7 @@
         <categoryLink name="DUARDIN ASCENDANT" id="8bd4-3070-2057-3c20" hidden="false" primary="false" targetId="c57c-7a43-906e-4f33"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="3f7f-5581-7b34-8531" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -2746,7 +2746,7 @@
         <categoryLink name="Restrict General" id="60b5-1b3a-a32d-1129" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="330"/>
+        <cost name="pts" typeId="points" value="300"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="b773-befe-01b7-45fd" hidden="false" import="true" targetId="5860-7278-af46-1719" type="selectionEntryGroup"/>

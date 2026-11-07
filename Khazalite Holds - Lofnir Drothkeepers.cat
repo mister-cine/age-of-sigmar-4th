@@ -274,7 +274,7 @@
         <categoryLink name="LOFNIR DROTHKEEPERS" id="b795-3108-8a98-5a42" hidden="false" primary="false" targetId="a895-7fd3-6fad-5410"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="280"/>
+        <cost name="pts" typeId="points" value="290"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="60cb-d534-d5d3-3d72" hidden="false" import="true" targetId="2a31-bd56-4b2d-ca1b" type="selectionEntryGroup"/>
@@ -339,7 +339,7 @@
         <categoryLink name="LOFNIR DROTHKEEPERS" id="a091-26bd-736a-793" hidden="false" primary="false" targetId="a895-7fd3-6fad-5410"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="cea9-2ab1-babb-ac4c" hidden="false" import="true" targetId="2a31-bd56-4b2d-ca1b" type="selectionEntryGroup"/>
@@ -405,7 +405,7 @@
         <categoryLink name="LOFNIR DROTHKEEPERS" id="efb2-2e68-53b4-a135" hidden="false" primary="false" targetId="a895-7fd3-6fad-5410"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="240"/>
+        <cost name="pts" typeId="points" value="290"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="c030-dc7d-77de-b9e0" hidden="false" import="true" targetId="2a31-bd56-4b2d-ca1b" type="selectionEntryGroup"/>

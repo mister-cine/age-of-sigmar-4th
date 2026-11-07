@@ -460,7 +460,7 @@
         <constraint id="1a39-f9e5-69cd-8f1b" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="220"/>
+        <cost name="pts" typeId="points" value="210"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="a34f-8a5e-b434-f322" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -697,7 +697,7 @@
         <constraint id="8716-e1e3-79f9-4e5a" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="130"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Paths" id="f284-f6d4-d4d9-a4ab" hidden="false" import="true" targetId="ae74-4599-94ef-18dd" type="selectionEntryGroup"/>
