@@ -1337,6 +1337,28 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink name="The Chosen Axes" id="800b-5122-08f4-bc77" hidden="false" import="true" targetId="79e4-f929-c8d1-d8cf" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
+      <modifiers>
+        <modifier field="points" type="multiply" value="2">
+          <conditions>
+            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink name="Doomseeker" id="323e-f743-e765-0c27" hidden="false" import="true" targetId="d35c-5ba4-683b-5abe" type="selectionEntry">
       <costs>
         <cost name="pts" typeId="points" value="100"/>
@@ -1809,6 +1831,29 @@ You cannot use any other **^^Ancestral Vow^^** abilities for the rest of the bat
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Manifestation Lores" id="e2ab-505b-5346-eeb5" flatten="true" hidden="false">
+      <constraints>
+        <constraint id="e021-d1c1-bf8c-9e7f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="239b-7107-bff8-efae" field="selections" scope="root-entry" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="e021-d1c1-bf8c-9e7f" type="set" value="-1">
+          <conditions>
+            <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Magmic Invocations" id="c13c-d6a2-3674-91d6" hidden="false" import="true" publicationId="693f-85d0-db98-543c" type="upgrade">
+          <constraints>
+            <constraint id="7d80-e4ac-44b-8924" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Magmic Invocations" id="3ae0-4cba-3e6b-4033" hidden="false" import="true" targetId="1da8-3aae-6aed-7fbf" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
     <selectionEntryGroup name="Spell Lores" id="3474-7759-cd73-9a7e" flatten="true" hidden="false">
       <constraints>
         <constraint id="5449-e47c-6e9e-7236" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>

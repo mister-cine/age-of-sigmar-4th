@@ -4090,7 +4090,7 @@ Then, pick 1 of the following effects to apply until the start of your next tur
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Magmic Battleforge" id="d13e-081f-63c5-4e75" hidden="false" import="true" publicationId="81a9-3dbf-dbc5-672e" type="unit">
+    <selectionEntry name="Magmic Battleforge" id="d13e-081f-63c5-4e75" hidden="false" import="true" publicationId="693f-85d0-db98-543c" type="unit">
       <categoryLinks>
         <categoryLink name="FACTION TERRAIN" id="b342-3450-7624-52de" hidden="false" primary="true" targetId="cdd6-ffa1-9b32-4cb8"/>
         <categoryLink name="KHAZALITE HOLDS" id="1e25-8af6-5f7c-b77e" hidden="false" primary="false" targetId="a14f-1160-84ad-3a73"/>
@@ -4144,6 +4144,384 @@ Cover, Impassable, Obscuring**</description>
           <description>Use Model</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry name="Runic Fyrewall" id="62d9-5397-25fb-ec2" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="WARD (6+)" id="98b4-e12-e5b4-c873" hidden="false" primary="false" targetId="70a4-383f-421f-52cd"/>
+        <categoryLink name="MANIFESTATION" id="94f6-ded-62f1-82ec" hidden="false" primary="true" targetId="bff0-8be9-719f-4afc"/>
+        <categoryLink name="INVOCATION" id="9813-d3bf-97d5-3846" hidden="false" primary="false" targetId="6120-adde-45cc-3faa"/>
+        <categoryLink name="ORDER" id="b2-f8d9-7d34-acef" hidden="false" primary="false" targetId="ee22-3575-6590-25c"/>
+        <categoryLink name="FYRESLAYERS" id="9cae-587d-ea84-74d1" hidden="false" primary="false" targetId="6a02-a995-fd92-d806"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Runic Fyrewall" id="9930-f9c0-29b6-bea6" hidden="false" typeId="1287-3a-9799-7e40" typeName="Manifestation">
+          <attributes>
+            <attribute name="Base Size" typeId="50db-066e-a3e7-696f"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
+            <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
+            <characteristic name="Save" typeId="80c7-7691-b6ed-d6a6">3+</characteristic>
+            <characteristic name="Banishment" typeId="97a2-d412-9ac-6a37">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Roaring Rune-fire" id="ceca-c01c-a505-e490" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Enemy Movement Phase</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick up to 3 enemy units within 6&quot; of this **^^Manifestation^^** to be the targets.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3 for each target. On a 2+:
+• Inflict an amount of mortal damage on the target equal to the roll.
+• Subtract 3 from the target&apos;s control score for the rest of the turn.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Base Size" id="e8b1-257f-c957-40d2" hidden="true">
+          <description>Use model</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Molten Infernoth" id="bc11-e1c6-f5de-ed0b" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="WARD (6+)" id="2c8d-5043-9483-6628" hidden="false" primary="false" targetId="70a4-383f-421f-52cd"/>
+        <categoryLink name="MANIFESTATION" id="ac6f-dbbe-9bef-6914" hidden="false" primary="true" targetId="bff0-8be9-719f-4afc"/>
+        <categoryLink name="INVOCATION" id="fd4-8d1e-12d7-6890" hidden="false" primary="false" targetId="6120-adde-45cc-3faa"/>
+        <categoryLink name="FLY" id="b883-e074-ac68-4c66" hidden="false" primary="false" targetId="b979-4c3e-7d0e-6921"/>
+        <categoryLink name="ORDER" id="2bd9-b381-2b31-6141" hidden="false" primary="false" targetId="ee22-3575-6590-25c"/>
+        <categoryLink name="FYRESLAYERS" id="61ac-2fd8-178-79bd" hidden="false" primary="false" targetId="6a02-a995-fd92-d806"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Molten Infernoth" id="969b-4be7-8187-6bff" hidden="false" typeId="1287-3a-9799-7e40" typeName="Manifestation">
+          <attributes>
+            <attribute name="Base Size" typeId="50db-066e-a3e7-696f"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
+            <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
+            <characteristic name="Save" typeId="80c7-7691-b6ed-d6a6">5+</characteristic>
+            <characteristic name="Banishment" typeId="97a2-d412-9ac-6a37">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Flamescarred" id="6786-1165-b1e6-b28f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">End of Any Turn</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit that had any damage points allocated to it this turn by this **^^Manifestation^^**&apos;s attacks to be the target.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Subtract 1 from wound rolls for the target&apos;s combat attacks until the end of your next turn.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Base Size" id="b574-66a6-7743-09db" hidden="true">
+          <description>120x92mm</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Raging Torrents of Lava" id="c2f3-3368-145d-de34" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="298e-8804-9bdf-8a70" field="selections" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="53d7-9550-ba8b-3ba2" field="selections" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Raging Torrents of Lava" id="9cd3-fbab-5166-de57" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">8&quot;</characteristic>
+                <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
+                <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
+                <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
+                <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
+                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Shoot in Combat</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Molten Claws" id="75a-ed2a-c85f-ace5" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c1cd-a492-12be-8b98" field="selections" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="daa4-c706-90eb-e92f" field="selections" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Molten Claws" id="58f6-e34a-156f-8274" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (Mortal)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Zharrgron Flame-spitter" id="f214-324b-6674-cf4" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="WARD (6+)" id="1bd1-5586-941a-e36a" hidden="false" primary="false" targetId="70a4-383f-421f-52cd"/>
+        <categoryLink name="MANIFESTATION" id="12ae-bf6-af75-9a7d" hidden="false" primary="true" targetId="bff0-8be9-719f-4afc"/>
+        <categoryLink name="INVOCATION" id="ee4c-4f86-939c-fccb" hidden="false" primary="false" targetId="6120-adde-45cc-3faa"/>
+        <categoryLink name="ORDER" id="e6d0-455-bf84-b5e3" hidden="false" primary="false" targetId="ee22-3575-6590-25c"/>
+        <categoryLink name="FYRESLAYERS" id="6459-da75-696b-8f49" hidden="false" primary="false" targetId="6a02-a995-fd92-d806"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Zharrgron Flame-spitter" id="c59e-1cd7-2b58-252f" hidden="false" typeId="1287-3a-9799-7e40" typeName="Manifestation">
+          <attributes>
+            <attribute name="Base Size" typeId="50db-066e-a3e7-696f"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
+            <characteristic name="Health" typeId="d1b9-3068-515-131e">5</characteristic>
+            <characteristic name="Save" typeId="80c7-7691-b6ed-d6a6">6+</characteristic>
+            <characteristic name="Banishment" typeId="97a2-d412-9ac-6a37">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Magma Blast" id="97c7-796b-448b-db56" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Shooting</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to hit rolls for this **^^Manifestation^^**&apos;s shooting attacks if the target unit has 10 or more models. Add 1 to hit rolls and wound rolls instead if the target unit has 15 or more models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Base Size" id="06fe-14aa-7b48-bbff" hidden="true">
+          <description>50mm</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Magma Blast" id="61e2-673f-7d52-ea57" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="b253-2e2c-d804-eeef" field="selections" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="997f-6ad5-429c-7600" field="selections" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Magma Blast" id="60b7-3ae6-2681-d2a1" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
+                <characteristic name="Atk" typeId="aa17-4296-2887-e05d">8</characteristic>
+                <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
+                <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
+                <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
+                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Crit (2 Hits)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="The Chosen Axes" id="79e4-f929-c8d1-d8cf" hidden="false" import="true" publicationId="9dee-a6b2-4b42-bfee" type="unit">
+      <categoryLinks>
+        <categoryLink name="ORDER" id="192a-602f-173c-0967" hidden="false" primary="false" targetId="ee22-3575-6590-25c"/>
+        <categoryLink name="INFANTRY" id="a9fc-553b-2068-0f7e" hidden="false" primary="true" targetId="75d6-6995-dfcc-3898"/>
+        <categoryLink name="UNIQUE" id="9784-b3f5-b815-7aa5" hidden="false" primary="false" targetId="72ce-2188-70bf-2dbd"/>
+        <categoryLink name="CHAMPION" id="0985-5fc5-83c7-05b8" hidden="false" primary="false" targetId="f679-3bcb-d664-9ac3"/>
+        <categoryLink name="Legends" id="a84e-0935-a032-858b" hidden="false" primary="false" targetId="acaf-8bb6-d6f-3e2a"/>
+        <categoryLink name="WARD (6+)" id="124a-7938-caa6-7a91" hidden="false" primary="false" targetId="70a4-383f-421f-52cd"/>
+        <categoryLink name="DUARDIN" id="a2b9-b776-2ea2-0903" hidden="false" primary="false" targetId="72e3-7b1b-cb94-4cbd"/>
+        <categoryLink name="KHAZALITE HOLDS" id="2df0-55ef-6ab1-32c3" hidden="false" primary="false" targetId="a14f-1160-84ad-3a73"/>
+        <categoryLink name="GRIMMDRON" id="2df0-55ef-6ab1-32c4" hidden="false" primary="false" targetId="c55f-5aac-f84a-889b"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="fc71-841a-3c7d-2a4c" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="7e59-2237-4890-a80a" field="selections" scope="roster" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="The Chosen Axes" id="ab13-874a-d1f2-4dfc" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Berserk Fury" id="293d-b182-cd03-b142" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fjul&apos;s Retinue" id="92cf-c84d-383f-a7bb" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit&apos;s **Fjul-Grimnir** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Tefk Flamebearer" id="dc29-8ff2-04a4-55ab" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="bfd3-2154-6cb2-2915" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e50e-4c7b-8c56-9149" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="43e0-a651-f314-cd73" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Fyresteel Weapons" id="25a6-2120-906e-2ac7" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="86c5-3561-56aa-e3e7" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="812d-312c-1e11-a7bb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Fyresteel Weapons" id="fcf6-8f31-cee4-b99b" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry name="Fjul-Grimnir" id="3467-467a-1686-ed81" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d09d-c8ec-7f71-4714" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6f78-9317-5d7f-736d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="7b16-2c44-eb9f-13d7" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Latchkey Grandaxe" id="a4aa-212e-c6e4-ac91" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="b07a-4a0c-b1c7-5b67" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="bb1d-b250-2f8f-cdb2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Latchkey Grandaxe" id="33fe-3986-b098-d58a" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="981b-6612-7c20-b3a0" hidden="false">
+              <constraints>
+                <constraint id="e4ab-f05a-2cd8-a22e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Champion" id="8fae-34a7-4bcf-2174" defaultAmount="1" hidden="false" import="true" targetId="9c21-1746-9873-a5b5" type="selectionEntry">
+                  <constraints>
+                    <constraint id="e9e9-a2f1-722c-a548" field="selections" includeChildSelections="true" scope="79e4-f929-c8d1-d8cf" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry name="Mad Maegrim" id="501c-9ef0-8f36-b241" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="2144-9ebd-8696-c989" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="fc97-a0e9-bee3-39ef" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="972e-24a2-e36b-f93d" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Fyresteel Weapons" id="62f6-59fd-f40d-80c7" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="8e3f-6b24-bac4-049d" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="1092-11f0-845f-203c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Fyresteel Weapons" id="2ff0-e3a1-991d-193f" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry name="Vol Orrukbane" id="c411-d757-ff37-ec0c" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="f4c3-69c1-3cff-97d8" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5980-811d-b2a3-f506" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="1410-345f-b015-bb80" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Fyresteel Weapons" id="e8c1-886b-20b8-9848" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="40f0-7b82-83c5-a650" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="2313-52e2-484f-0cab" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Fyresteel Weapons" id="d728-8b39-e61e-5096" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

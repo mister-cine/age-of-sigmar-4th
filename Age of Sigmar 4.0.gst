@@ -322,8 +322,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -910,8 +910,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -1676,8 +1676,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -2264,8 +2264,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -3044,7 +3044,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3064,7 +3064,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3124,7 +3124,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3135,7 +3135,7 @@
                         </conditionGroup>
                       </conditionGroups>
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -3192,7 +3192,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3235,7 +3235,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3279,7 +3279,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3372,7 +3372,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3486,7 +3486,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3512,7 +3512,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -3955,8 +3955,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -4648,8 +4648,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -5208,8 +5208,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -5796,8 +5796,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -6504,8 +6504,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -9943,7 +9943,7 @@
                     <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="205-60d5-d221-d158" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="edc3-d297-701c-6643" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10228,7 +10228,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10248,7 +10248,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10308,7 +10308,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10319,7 +10319,7 @@
                         </conditionGroup>
                       </conditionGroups>
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -10376,7 +10376,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10419,7 +10419,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10463,7 +10463,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10556,7 +10556,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10670,7 +10670,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -10696,7 +10696,7 @@
                           <conditions>
                             <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                             <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -11127,8 +11127,8 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -11756,7 +11756,7 @@
                   <conditions>
                     <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -12735,12 +12735,6 @@
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="and">
-                      <conditions>
                         <condition childId="edc3-d297-701c-6643" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                         <condition childId="edc3-d297-701c-6643" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
@@ -13343,12 +13337,6 @@
                       <conditions>
                         <condition childId="b53b-1217-df2e-66d2" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                         <condition childId="b53b-1217-df2e-66d2" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                     <conditionGroup type="and">
@@ -15086,8 +15074,8 @@ You complete this battle tactic at the end of your turn if you control each obje
                         </conditionGroup>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
-                            <condition childId="b3f9-6c96-b99a-1e71" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="notInstanceOf" value="1"/>
+                            <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
