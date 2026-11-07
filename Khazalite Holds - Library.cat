@@ -2661,7 +2661,7 @@ If you declared a **^^Fight^^** ability for a friendly non-**^^Hero Kromdron Inf
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">You declared a **^^Spell^^** ability from the &apos;Reverberations of the Runes&apos; or the &apos;Resonance of the Runes&apos; for this unit</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared a **^^Spell^^** ability from the &apos;Reverberations of the Runes&apos; or the &apos;Resonance of the Runes&apos; for this unit</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If the casting roll for that spell equals or exceeds its casting value, make a rhythmic hammering roll of 2D6.
 If a rhythmic hammering roll is lower than that spell&apos;s casting value, the spell fails and its effect is not resolved.
@@ -3703,7 +3703,6 @@ If a friendly **^^Fyreslayers Hero^^** wholly within 6&quot; of this unit is de
         <categoryLink name="KHAZALITE HOLDS" id="8c0f-44f7-7b1a-f584" hidden="false" primary="false" targetId="a14f-1160-84ad-3a73"/>
         <categoryLink name="GRIMMDRON" id="ec02-578d-9182-7a4c" hidden="false" primary="false" targetId="c55f-5aac-f84a-889b"/>
         <categoryLink name="DUARDIN" id="7fd3-d13a-8908-8dc8" hidden="false" primary="false" targetId="72e3-7b1b-cb94-4cbd"/>
-        <categoryLink name="MAGMADROTH" id="fe03-0b17-b006-b2f3" hidden="false" primary="false" targetId="2152-3158-ce97-4b6d"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="df9c-ebe5-38f5-079a" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>

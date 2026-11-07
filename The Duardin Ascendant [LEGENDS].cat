@@ -2993,7 +2993,7 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly **^^Duardin Ascendant^^** units are **unified** while they are wholly within 12&quot; of at least 1 **^^Fyreslayers^^**, 1 **^^Kharadron Overlords^^**, and 1 **^^Cities of Sigmar Duardin^^** unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly **^^Duardin Ascendant^^** units are **unified** while they are wholly within 12&quot; of at least 1 **^^Khazalite Holds^^**, 1 **^^Kharadron Overlords^^**, and 1 **^^Cities of Sigmar Duardin^^** unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="&apos;As the Ancestors Intended!&apos;" id="0443-11b2-a605-c053" hidden="false" publicationId="e47d-cde6-bbd2-9db9" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">

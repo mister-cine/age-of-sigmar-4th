@@ -5604,33 +5604,6 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Vulkyn Gifts" id="8ed0-1e75-9c9a-f777" collapsible="true" flatten="false" hidden="true" import="true" targetId="e55c-06fb-f23b-5b42" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                      <localConditionGroups>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="6a02-a995-fd92-d806" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="3fe-84f4-cec6-a1c1" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="6a02-a995-fd92-d806" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                      </localConditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
             <entryLink name="Lore of Virulence" id="2494-9bb3-ece3-fe88" collapsible="true" flatten="false" hidden="true" import="true" targetId="242a-210c-e7cd-fae0" type="selectionEntryGroup">
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
@@ -9283,33 +9256,6 @@
                         <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
                           <conditions>
                             <condition childId="34e2-3c11-76bc-a2e" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                      </localConditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Vulkyn Gifts" id="1878-c8c7-db3b-d1bd" collapsible="true" flatten="false" hidden="true" import="true" targetId="e55c-06fb-f23b-5b42" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                      <localConditionGroups>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="6a02-a995-fd92-d806" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="3fe-84f4-cec6-a1c1" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="6a02-a995-fd92-d806" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
                             <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
                           </conditions>
                         </localConditionGroup>
@@ -17683,7 +17629,7 @@ In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18&quot;
               <characteristics>
                 <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
                 <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">5</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Drothkeepers Priest^^** to chant this prayer, pick a visible friendly **^^Drothkeepers Magmadroth^^** wholly within 12&quot; of them to be a target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Drothkeepers Priest^^** to chant this prayer, pick a visible friendly **^^Drothkeepers Monster^^** wholly within 12&quot; of them to be a target, then make a chanting roll of D6.</characteristic>
                 <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Until the start of your next turn, the Damage characteristic of the target&apos;s **Roaring Fyrestream** is 3 instead of D3.</characteristic>
                 <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**, **^^Unlimited^^**</characteristic>
               </characteristics>
@@ -23472,110 +23418,6 @@ If the chanting roll was 10+, until the start of your next turn, add 1 to the Re
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Vulkyn Gifts" id="e55c-06fb-f23b-5b42" hidden="true" publicationId="f894-7929-f79a-a269">
-      <modifiers>
-        <modifier field="hidden" type="set" value="false">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition childId="f079-501a-2738-6845" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                <condition childId="78a1-f6c2-71b8-270a" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <selectionEntries>
-        <selectionEntry name="Fury of Vulcatrix" id="429f-d56c-ed0a-3fbd" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="7248-c193-2541-37b8" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="13b8-3521-e55d-ac40" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="7248-c193-2541-37b8" type="set" value="1">
-              <conditions>
-                <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Fury of Vulcatrix" id="2520-66ce-f625-a48d" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
-              <attributes>
-                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
-                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Defensive</attribute>
-                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
-              </attributes>
-              <characteristics>
-                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
-                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
-                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Add 1 to hit rolls for the target&apos;s combat attacks, including those made with **Companion** weapons, until the start of your next turn.
-In addition, if the chanting roll was 8+, add 2 to the Attacks characteristic of the target&apos;s **Companion** weapons until the start of your next turn.</characteristic>
-                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Ichor of the Ur-Salamander" id="5325-7ddf-2f4e-afc7" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="7286-d1cc-9561-d1e4" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="8464-43d6-16d2-b9b7" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="7286-d1cc-9561-d1e4" type="set" value="1">
-              <conditions>
-                <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Ichor of the Ur-Salamander" id="3a7c-6071-17c2-2910" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
-              <attributes>
-                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
-                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Special</attribute>
-                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
-              </attributes>
-              <characteristics>
-                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
-                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">3</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers Monster^^** wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
-                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Until the start of your next turn, if any damage points were inflicted on an enemy unit by the target&apos;s &apos;Volcanic Blood&apos; ability, after the damage sequence has been resolved, inflict 3 mortal damage on that target. If the chanting roll was 6+, inflict D3+3 mortal damage instead.</characteristic>
-                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**, **^^Unlimited^^**</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Blazing Impetus" id="eb55-758f-6dd6-0ac4" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="bc1b-b3a3-e746-596f" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="6fef-fb13-3ef1-5c89" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="bc1b-b3a3-e746-596f" type="set" value="1">
-              <conditions>
-                <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Blazing Impetus" id="e57f-c5ba-2fe9-6c34" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
-              <attributes>
-                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
-                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Movement</attribute>
-                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
-              </attributes>
-              <characteristics>
-                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
-                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">5</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12&quot; of them and that was not set up this turn to be the target, then make a chanting roll of D6.</characteristic>
-                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">The target can use the &apos;Normal Move&apos; ability as if it were your movement phase. If the chanting roll was 10+, you can pick another eligible unit to be a second target.</characteristic>
-                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
     <selectionEntryGroup name="Bloodshadow Rites" id="e69f-5f9b-a600-30c7" hidden="true" publicationId="f894-7929-f79a-a269">
       <modifiers>
         <modifier field="hidden" type="set" value="false">
@@ -28377,7 +28219,7 @@ If you picked a **Dreadful Visage** or **Wheels of Excruciation**, set it up who
               <characteristics>
                 <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
                 <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Grimmdron Priest^^** to chant this prayer, pick a visible friendly **^^Grimmdron^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
                 <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Add 1 to hit rolls for the target&apos;s combat attacks, including those made with **Companion** weapons, until the start of your next turn.
 In addition, if the chanting roll was 8+, add 1 to the Attacks characteristic of the target&apos;s melee weapons, including **Companion** weapons, until the start of your next turn.</characteristic>
                 <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
@@ -28407,10 +28249,10 @@ In addition, if the chanting roll was 8+, add 1 to the Attacks characteristic of
               <characteristics>
                 <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
                 <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">3</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Grimmdron Priest^^** to chant this prayer, pick a visible friendly **^^Grimmdron^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
                 <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">If the chanting roll was 6+, you can pick another eligible unit to be a second target. Until the start of your next turn:
-• If the target is a **^^Magmadroth^^**, each time its &apos;Volcanic Blood&apos; ability would inflict 1 mortal damage on an enemy unit, inflict D3 mortal damage instead.
-• If the target is a non‑**^^Magmadroth^^** unit, each time you make an unmodified save roll of 1 for a combat attack that targets that unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
+• If the target is a **^^Monster^^**, each time its &apos;Volcanic Blood&apos; ability would inflict 1 mortal damage on an enemy unit, inflict D3 mortal damage instead.
+• If the target is a non‑**^^Monster^^** unit, each time you make an unmodified save roll of 1 for a combat attack that targets that unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
                 <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**, **^^Unlimited^^**</characteristic>
               </characteristics>
             </profile>
@@ -28438,7 +28280,7 @@ In addition, if the chanting roll was 8+, add 1 to the Attacks characteristic of
               <characteristics>
                 <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
                 <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">5</characteristic>
-                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit that was not set up this turn and that is wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Grimmdron Priest^^** to chant this prayer, pick a visible friendly **^^Grimmdron^^** unit that was not set up this turn and that is wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
                 <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">If the chanting roll was 10+, you can pick another eligible unit to be a second target. Each target can use the &apos;Normal Move&apos; or &apos;Retreat&apos; ability as if it were your movement phase.</characteristic>
                 <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
               </characteristics>

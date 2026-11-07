@@ -107,7 +107,7 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.7dac-ee81-3ae6-61fe" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
             <modifier affects="self.entries.recursive.a7a5-cc08-d7d9-dd96" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
@@ -174,7 +174,7 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.7dac-ee81-3ae6-61fe" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
@@ -240,7 +240,7 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -305,7 +305,7 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -370,7 +370,7 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.7dac-ee81-3ae6-61fe" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
@@ -436,8 +436,65 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.6a02-a995-fd92-d806" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.7dac-ee81-3ae6-61fe" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Ormyr and Ashtongue" id="b04d-acdf-ca1d-0220" hidden="false" import="true" targetId="7765-aa23-d128-c08f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="LOFNIR DROTHKEEPERS" id="72b6-bd6a-6544-1b7e" hidden="false" primary="false" targetId="a895-7fd3-6fad-5410"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+            <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.7dac-ee81-3ae6-61fe" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.a14f-1160-84ad-3a73" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="00c5-8e4f-f9ea-019e"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -559,20 +616,26 @@
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="Skilled Drothwranglers" id="b98b-b581-7bd8-0fc9" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Skilled Drothwranglers" id="b98b-b581-7bd8-0fc9" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared a non-Charge Move
-ability for a friendly Magmadroth</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a friendly **Vulkyn Flameseekers** unit and/or a friendly **^^Drothkeepers Infantry Hero^^** that are not in combat and are wholly within 6&quot; of the **^^Magmadroth^^** to be the targets. Units that have **hitched a lift** this turn (see below) cannot be targets.
-Remove the targets from the battlefield. After the **^^Magmadroth^^** ends its move, you must set up each target on the battlefield, wholly within 6&quot; of the **Magmadroth** and not in combat. The targets have **hitched a lift**. Units that **hitched a lift** cannot use **^^Charge^^** abilities in the same turn.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">The **^^Magmadroth^^** using that **^^Move^^** ability.</characteristic>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The timing of friendly **Auric Runeson on Magmadroth** units&apos; &apos;Packdroth&apos; ability is &apos;Reaction: You declared a non-**^^Charge^^** **^^Move^^** ability for this unit&apos; instead of &apos;Once Per Turn (Army), Reaction: You declared a **^^Move^^** ability for this unit in your movement phase&apos;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blazing Vengeance" id="8266-b958-2c1f-572a" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a friendly **^^Drothkeepers Monster^^** is slain, give 1 grudge mark to each friendly **^^Drothkeepers^^** unit within 6&quot; of it.</characteristic>
           </characteristics>
         </profile>
         <profile name="Daring Tamers" id="ba7e-a556-ddff-baac" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
