@@ -7316,7 +7316,7 @@ The melee weapons of units in this Regiment of Renown have **Anti-charge (+1 Ren
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The **^^Aelsling^^** has a Health characteristic of 17 instead of 14.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The **^^Aelsling^^** in this Regiment of Renown has a Health characteristic of 17 instead of 14.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7629,7 +7629,7 @@ The first time you use this ability, you can use it without any command points b
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">End of Any Turn</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick the **Ashen Elder** in this Regiment of Renown to use this ability. Then, pick an objective or **Place of Power** that they are contesting and that has not been picked to be the target of this ability this battle to be the target,</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick the **Ashen Elder** in this Regiment of Renown to use this ability. Then, pick an objective or **Place of Power** that they are contesting and that has not been picked to be the target of this ability this battle to be the target.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll 6 dice. For each 3+, give this unit 1 ritual point.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -9144,7 +9144,7 @@ Weapons used by an **overlooked** unit in this Regiment of Renown have **Crit (
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), YourHero Phase</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Your Hero Phase</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick another friendly non-**^^Unique^^** unit wholly within 12&quot; of this unit to be the target.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following effects to apply until the start of your next turn and while the target is wholly within 12&quot; of this unit:
 • You can re-roll run rolls for the target.
