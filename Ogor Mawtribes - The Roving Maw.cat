@@ -43,7 +43,7 @@
         <categoryLink name="ROVING MAW" id="a316-8f5e-5594-56d6" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="170"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="584f-2ee5-c86b-d0fb" hidden="false" import="true" targetId="5b89-7540-9a43-3c49" type="selectionEntryGroup"/>
@@ -108,7 +108,7 @@
         <categoryLink name="ROVING MAW" id="6cbe-13d7-318f-7461" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="160"/>
+        <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
         <entryLink name="Battle Wounds + Scars" id="4c20-729f-7704-b849" hidden="false" import="true" targetId="01ae-fb0e-a054-b5f9" type="selectionEntryGroup"/>
@@ -138,7 +138,7 @@
         <categoryLink name="ROVING MAW" id="f1c0-3a7a-883b-629b" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="304e-7d05-287d-66" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -170,7 +170,7 @@
         <categoryLink name="ROVING MAW" id="8349-7d26-b82a-bc3f" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="220"/>
+        <cost name="pts" typeId="points" value="210"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="ed4c-9ce4-63bd-33cd" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -201,7 +201,7 @@
         <categoryLink name="ROVING MAW" id="2daa-4aa2-fed9-c226" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="3079-d6c0-aeb4-a506" hidden="false" import="true" targetId="5b89-7540-9a43-3c49" type="selectionEntryGroup"/>
@@ -265,7 +265,7 @@
         <categoryLink name="ROVING MAW" id="55e6-8791-12ca-528d" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="130"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="964a-401f-fd2e-cf48" hidden="false" import="true" targetId="5b89-7540-9a43-3c49" type="selectionEntryGroup"/>
@@ -350,7 +350,7 @@
     </entryLink>
     <entryLink name="Ironguts" id="0a71-7cbc-ee6b-2be7" hidden="false" import="true" targetId="7ea4-f81b-b7cc-b16e" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="210"/>
+        <cost name="pts" typeId="points" value="200"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="306e-0598-15c4-1a1e" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -524,6 +524,9 @@
       <categoryLinks>
         <categoryLink name="ROVING MAW" id="9ad8-d920-1655-aa13" hidden="false" primary="false" targetId="91f7-e480-de1d-fb6a"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="390"/>
+      </costs>
       <entryLinks>
         <entryLink name="Warlord" id="62ac-c9a9-65a1-8186" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
         <entryLink name="Renown" id="f3d8-7195-d438-e8d5" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
