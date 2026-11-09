@@ -22,6 +22,13 @@ jobs:
           "Helsmiths of Hashut - Taar's Grand Forgehost.cat" \
           "Helsmiths of Hashut - Library.cat" \
           "Lores.cat"
+        python tools/aos_catalogue_resolver.py \
+          --catalogue "Helsmiths of Hashut.cat" \
+          --out /tmp/helsmiths-resolved.json \
+          "Helsmiths of Hashut.cat" \
+          "Helsmiths of Hashut - Taar's Grand Forgehost.cat" \
+          "Helsmiths of Hashut - Library.cat" \
+          "Lores.cat"
 
     - uses: actions/upload-artifact@v1
       with:
