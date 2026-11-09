@@ -12,6 +12,17 @@ jobs:
     - uses: BSData/check-datafiles@v1
       id: check
 
+    - name: Test catalogue resolver
+      run: |
+        python -m unittest discover -s tests -v
+        python tools/aos_catalogue_resolver.py \
+          --catalogue "Helsmiths of Hashut - Taar's Grand Forgehost.cat" \
+          --out /tmp/taar-resolved.json \
+          "Helsmiths of Hashut.cat" \
+          "Helsmiths of Hashut - Taar's Grand Forgehost.cat" \
+          "Helsmiths of Hashut - Library.cat" \
+          "Lores.cat"
+
     - uses: actions/upload-artifact@v1
       with:
         name: artifact
