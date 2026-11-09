@@ -192,11 +192,22 @@ class CatalogueResolver:
 
     def resolve_catalogue(self, cat: Catalogue) -> dict[str, Any]:
         roots = []
-        for child in list(cat.root):
-            if local(child.tag) in {"selectionEntry", "selectionEntryGroup"}:
-                roots.append(self._entry(cat, child, ()))
-            elif local(child.tag) == "entryLink":
-                roots.append(self._resolve_link(cat, child, ()))
+
+        # BSData commonly wraps root items in selectionEntries/entryLinks/
+        # sharedSelectionEntryGroups containers. Descend through wrappers,
+        # but stop when an actual selectable node is reached so nested
+        # selections are not incorrectly promoted to catalogue roots.
+        def collect(container: ET.Element) -> None:
+            for child in list(container):
+                kind = local(child.tag)
+                if kind in {"selectionEntry", "selectionEntryGroup"}:
+                    roots.append(self._entry(cat, child, ()))
+                elif kind == "entryLink":
+                    roots.append(self._resolve_link(cat, child, ()))
+                else:
+                    collect(child)
+
+        collect(cat.root)
         return {
             "catalogue": {
                 "name": cat.name,
