@@ -159,12 +159,18 @@ class CatalogueResolver:
             result[target_key] = [serialise(x) for x in descendants(node, tag)]
 
         next_stack = stack + ((node_id,) if node_id else ())
-        for child in list(node):
-            kind = local(child.tag)
-            if kind in {"selectionEntry", "selectionEntryGroup"}:
-                result["children"].append(self._entry(cat, child, next_stack))
-            elif kind == "entryLink":
-                result["links"].append(self._resolve_link(cat, child, next_stack))
+
+        def collect_nested(container: ET.Element) -> None:
+            for child in list(container):
+                kind = local(child.tag)
+                if kind in {"selectionEntry", "selectionEntryGroup"}:
+                    result["children"].append(self._entry(cat, child, next_stack))
+                elif kind == "entryLink":
+                    result["links"].append(self._resolve_link(cat, child, next_stack))
+                elif kind in {"selectionEntries", "entryLinks", "selectionEntryGroups"}:
+                    collect_nested(child)
+
+        collect_nested(node)
         return result
 
     def _resolve_link(self, importer: Catalogue, link: ET.Element, stack: tuple[str, ...]) -> dict[str, Any]:
